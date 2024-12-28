@@ -47,7 +47,7 @@ Here's how to use the script:
     </script>
     ```
 
-3. Replace the `{COURSE_ID}` and `{GRADE_ID}` attribute values in the code with the course ID and grade ID you found in step 1.
+3. Replace the `{COURSE_ID}` and `{GRADE_ID}` attribute values in the `<iframe>` element with the course ID and grade ID values you found in step 1.
 
 4. Customize the text in the `<h2>` and `<p>` elements to match the assignment you are displaying.
 
@@ -58,4 +58,3 @@ Here's how to use the script:
 This script will load the grade for the specified assignment from the Moodle grade report page and display it on the page where you embedded the code. If the grade is found, it will be displayed in a formatted message. If the grade is not found or an error occurs, an appropriate message will be displayed.
 
 Feel free to customize the styling and text of the displayed message to suit your needs. You can also modify the script to display grades from different assignments or courses by changing the course ID and grade ID values in the code.
-
